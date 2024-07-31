@@ -5,7 +5,7 @@ const createEsbuildPlugin = require('@badeball/cypress-cucumber-preprocessor/esb
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'https://www.digikala.com/',
+    baseUrl: 'https://www.alibaba.ir/#d-auth',
     specPattern: 'cypress/e2e/**/*.feature',
     setupNodeEvents(on, config) {
       // Ensure bundler is configured correctly
