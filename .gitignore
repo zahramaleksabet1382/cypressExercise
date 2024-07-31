@@ -1,0 +1,17 @@
+node_modules/
+.pnpm-store/
+cypress/videos/
+db_backup.sql
+.VSCodeCounter/
+cypress/screenshots/
+.cache/
+backup*/
+dist/
+**/~/*
+
+#library 
+libs/
+
+#pm2 
+.pm2/
+pm2.config.js
